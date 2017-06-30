@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3979782555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsGoogle.startUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test Seach a Branch Feature on Schwab Website",
+        "description": "",
+        "id": "schwab-search-feature;test-seach-a-branch-feature-on-schwab-website",
+        "after": [
+          {
+            "result": {
+              "duration": 88779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsGoogle.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16675389915,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will launch the schwab website",
+            "match": {
+              "location": "StepsGoogle.i_will_launch_the_schwab_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5077083639,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will check the Find a Branch Link on the page",
+            "match": {
+              "location": "StepsGoogle.i_will_check_the_Find_a_Branch_Link_on_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9839141208,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Find a Branch Link",
+            "match": {
+              "location": "StepsGoogle.i_click_on_Find_a_Branch_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5047722476,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will verify Branch Locator page",
+            "match": {
+              "location": "StepsGoogle.i_will_verify_Branch_Locator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5167923982,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will enter a zip code in the locate textbox",
+            "match": {
+              "location": "StepsGoogle.i_will_enter_a_zip_code_in_the_locate_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5115894563,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on locate button",
+            "match": {
+              "location": "StepsGoogle.i_click_on_locate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219216176,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will check the branch results near me",
+            "match": {
+              "location": "StepsGoogle.i_will_check_the_branch_results_near_me()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "name": "Schwab Search Feature",
+    "description": "\t\t\t Verify the branch search feature on the schwab website",
+    "id": "schwab-search-feature",
+    "keyword": "Feature",
+    "uri": "/Users/Junaid/Desktop/CucumberParallel/test-automation-quickstart-master/ui-acceptance-tests/src/test/resources/cucumber/SimpleUiTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
